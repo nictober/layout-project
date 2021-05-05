@@ -32,6 +32,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
+.main-page-wrapper {
+    background: url("img/main-bg.png") center top no-repeat, url("img/bottom-bg.png") center bottom 150px no-repeat;
+}
 
 .container {
     width: 1141px;
