@@ -42,16 +42,30 @@ h1, h2, h3, h4, h5, h6 {
     height: 140px;
     position: relative;
 }
-.header .logo {
+.logo {
     display: block;
     position: absolute;
+}
+
+.logo--header .logo {
     top: 34px;
     left: 0px;
 }
-.header .site-menu  {
+.logo--footer .logo {
+    top: 52px;
+    left: 0px;
+}
+
+.site-menu--header .site-menu  {
     position: absolute;
     top: 37px;
     left: 403px;
+}
+
+.site-menu--footer .site-menu {
+    position: absolute;
+    top: 52px;
+    left: 243px;
 }
 
 .site-menu__items{
@@ -78,13 +92,19 @@ h1, h2, h3, h4, h5, h6 {
     color: #8F00FF;
 }
 
-.header .contacts {
+.contacts {
     position: absolute;
     top: 32px;
     right: -16px;
     font-style: normal;
     text-align: right;
     line-height: 1.07;
+}
+
+.contacts--footer .contacts {
+    width: 191px;
+    top: 17px;
+    right: 19px;
 }
 
 .contacts__number {
@@ -96,6 +116,14 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
     padding-bottom: 1px;
 }
+
+.contacts-footer__title {
+    font-size: 11px;
+    color: #9A9A9A;
+    text-decoration: none;
+    margin-bottom: 6.5px;
+}
+
 .main-announce {
     width: 637px;
 }
@@ -139,6 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 .offers__name:after {
     content: url(img/Vector-4.png);
     margin-left: 9px;
+    vertical-align: middle;
 }
 
 /* .offers__pic {
@@ -177,6 +206,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 22px;
     background-color: #fff;
     color: #666666;
+    /* position: relative; */
 }
 
 .offers__item-name {
@@ -186,10 +216,21 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 23px;
 }
 
+
 .offers__item-spec {
     display: inline-block;
     font-size: 16px;
     margin-right: 30px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.offers__spec-pic {
+    vertical-align: middle;
+}
+
+.offers__spec-title {
+    vertical-align: middle;
 }
 
 .offers__about {
@@ -225,7 +266,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .history__item {
-    border-radius: 4px;
+    
     display: inline-block;
     position: relative;
     overflow: hidden;
@@ -233,6 +274,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 74.5px;
     margin-right: 12px;
 
+}
+
+.history__item-pic {
+    border-radius: 10px;
 }
 
 .history__item:last-child {
@@ -330,7 +375,6 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
     margin-left: -140px;
     margin-top: 100px;
-    
 }
 
 .about__text {
@@ -361,8 +405,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
+    height: 146px;
     margin-top: 53px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
 }
 .footer .logo{
     display: inline-block;
@@ -372,17 +418,60 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social {
-    display: inline-block;
-}
-.footer .social__ref {
-    display: inline-block;
-}
-.footer .social__pic {
-    display: inline-block;
+    position: absolute;
+    top: 54px;
+    right: 265px;
 }
 
 .social__item {
     display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.social__item:last-child {
+    margin-right: 0px;
+}
+
+.social__ref {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+
+.social__item--telegram .social__ref  {
+    background-image: url(img/telegram.png);
+}
+.social__item--vk .social__ref  {
+    background-image: url(img/vk.png);
+}
+.social__item--facebook .social__ref  {
+    background-image: url(img/f.png);
+}
+.social__item--inst .social__ref  {
+    background-image: url(img/in.png);
+}
+
+.social__item--telegram .social__ref:hover {
+    background-image: url(img/telegram-h.png);
+}
+.social__item--vk .social__ref:hover {
+    background-image: url(img/vk-h.png);
+}
+.social__item--facebook .social__ref:hover {
+    background-image: url(img/f-h.png);
+}
+.social__item--inst .social__ref:hover {
+    background-image: url(img/in-h.png);
+}
+
+
+.social__item:last-child {
+    margin-right: 0px;
+
 }
 
 .footer .contacts {
@@ -392,23 +481,4 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-/* 
-.offers__info {
-    margin-bottom: 26.5px;
-    margin-top: 23px;
-}
 
-.offers__item-spec {
-    display: inline-block;
-    vertical-align: bottom;
-}
-
-.offers__spec-pic {
-    display: inline-block;
-    margin-right: 10px;
-}
-}
-.offers__spec-title {
-    font-size: 16px;
-    font-weight: 400;
- */
