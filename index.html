@@ -1,61 +1,60 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
-    <div class="wrapper main-page-wrapper">
 
-        <section class="hero">
-            <div class="container">
-                <header class="header">
-                    <div class="logo logo--header">
-                        <a href="#" class="logo">
-                            <img class="logo__pic" src="img/Quiz-box.png" alt="quiz-box_logo"> 
+<body>
+    <div class="wrapper main-page">
+        <div class="main-page__wrapper">
+            <section class="hero">
+                <div class="container">
+                    <header class="header">
+                        <a href="#" class="header__logo">
+                            <img class="logo__pic" src="img/Quiz-box.png" alt="quiz-box_logo">
                         </a>
-                    </div>
-                    <nav class="site-menu--header">
-                        <div class="site-menu">
+                        <nav class="site-menu header__menu">
                             <ul class="site-menu__items">
                                 <li class="site-menu__item"><a href="#" class="site-menu__item-ref">Главная</a> </li>
                                 <li class="site-menu__item"><a href="#" class="site-menu__item-ref">Игры</a> </li>
                                 <li class="site-menu__item"><a href="#" class="site-menu__item-ref">Отзывы</a> </li>
                             </ul>
-                        </div>
-                    </nav>
-                    <address class="contacts">
-                        <a href="tel:+78007003030" class="contacts__number">8 800 700 30 30</a>
-                        <div class="contacts__dropdown-title">График работы</div>
-                    </address>
-                </header>
-            </div>
-        </section>
+                        </nav>
 
-        <div class="page-content">
-            <main class="main-content">
-                <div class="container">
-                    
-                    <section class="main-announce">
-                        <h1 class="main-announce__title">Интеллектуальный вечер для шумной компании</h1>
-                        <p class="main-announce__text">Игры на любой вкус</p>
-                        <a href="#" class="main-announce__button">Подробнее</a>
-                    </section>
+                        <address class="contacts header__contacts">
+                            <a href="tel:+78007003030" class="contacts__number">8 800 700 30 30</a>
+                            <div class="contacts__dropdown-title">График работы</div>
+                        </address>
+                    </header>
+                </div>
+            </section>
 
-                    <section class="offers">
-                        <div class="offers__title">
-                            <h3 class="offers__name">Новинки недели</h3>
-                            <!-- <img src="img/Vector-4.png" alt="" class="offers__pic"> -->
-                        </div>
-                        <ul class="offers__items">
-                            <li class="offers__item">
-                                <div class="offers__header">
-                                    <img src="img/music-quiz 1.png" alt="" class="offers__item-pic">
-                                </div>
-                                <div class="offers__item-text">
-                                    <h4 class="offers__item-name">Музыкальная игра</h4>
+            <div class="page-content">
+                <main class="main-content">
+                    <div class="container">
+
+                        <section class="main-announce">
+                            <h1 class="main-announce__title">Интеллектуальный вечер для шумной компании</h1>
+                            <p class="main-announce__text">Игры на любой вкус</p>
+                            <a href="#" class="main-announce__button">Подробнее</a>
+                        </section>
+
+                        <section class="offers">
+                            <div class="offers__title">
+                                <h3 class="offers__name">Новинки недели</h3>
+                                <!-- <img src="img/Vector-4.png" alt="" class="offers__pic"> -->
+                            </div>
+                            <ul class="offers__items">
+                                <li class="offers__item">
+                                    <div class="offers__header">
+                                        <img src="img/music-quiz 1.png" alt="" class="offers__item-pic">
+                                    </div>
+                                    <div class="offers__item-text">
+                                        <h4 class="offers__item-name">Музыкальная игра</h4>
                                         <ul class="offers__info">
                                             <li class="offers__item-spec">
                                                 <img src="img/Vector-2.png" alt="" class="offers__spec-pic">
@@ -66,173 +65,187 @@
                                                 <span class="offers__spec-title">70 вопросов</span>
                                             </li>
                                         </ul>
-                                    <p class="offers__about">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
-                                    <div class="offers__item-button-wrapper"> <a href="#" class="offers__item-button">Смотреть</a> </div>
-                                </div>
-                            </li>
-                            <li class="offers__item">
-                                <div class="offers__header">
-                                    <img src="img/DyzSUv3WsAEW9zJ 1.png" alt="" class="offers__item-pic">
-                                </div>
-                                <div class="offers__item-text offers__item-text--active">
-                                    <h4 class="offers__item-name">Назад в 90-е</h4>
-                                    <ul class="offers__info">
-                                        <li class="offers__item-spec">
-                                            <img src="img/Vector-2.png" alt="" class="offers__spec-pic">
-                                            <span class="offers__spec-title">90 минут</span>
-                                        </li>
-                                        <li class="offers__item-spec">
-                                            <img src="img/Vector-1.png" alt="" class="offers__spec-pic">
-                                            <span class="offers__spec-title">70 вопросов</span>
-                                        </li>
-                                    </ul>
-                                    <p class="offers__about">Равным образом постоянное обеспечение нашей деятельности 
-                                        позволяет оценить значение систем массового участия.</p>
-                                        <div class="offers__item-button-wrapper offers__item-button-wrapper--active"> <a href="#" class="offers__item-button">Смотреть</a> </div>
-                                </div>
-                            </li>
-                            <li class="offers__item">
-                                <div class="offers__header">
-                                    <img src="img/WYIzcJxSabU 1.png" alt="" class="offers__item-pic">
-                                </div>
-                                <div class="offers__item-text">
-                                    <h4 class="offers__item-name">IT-Викторина</h4>
-                                    <ul class="offers__info">
-                                        <li class="offers__item-spec">
-                                            <img src="img/Vector-2.png" alt="" class="offers__spec-pic">
-                                            <span class="offers__spec-title">90 минут</span>
-                                        </li>
-                                        <li class="offers__item-spec">
-                                            <img src="img/Vector-1.png" alt="" class="offers__spec-pic">
-                                            <span class="offers__spec-title">70 вопросов</span>
-                                        </li>
-                                    </ul>
-                                    <p class="offers__about">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
-                                    <div class="offers__item-button-wrapper"> <a href="#" class="offers__item-button">Смотреть</a> </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </section>
-
-                    <section class="history">
-                        <h3 class="history__title">Прошедшие игры</h3>
-                        <ul class="history__items">
-                            <li class="history__item">
-                                <img src="img/kto_gde_kviz__moskva_1_qg_large 1.png" alt="" class="history__item-pic">
-                                <div class="history__card-text">
-                                    <time class="history__day">1 января</time>
-                                    <h4 class="history-card__title">Новогодний квиз</h4>
-                                        <div class="history__about">
-                                            <p>
-                                                Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!
-                                            </p>
-                                        </div>
-                                </div>
-                            </li>
-                            <li class="history__item">
-                                <img src="img/3187ee0fc9499a1ef1583ff3c981cf5a 1.png" alt="" class="history__item-pic">
-                                <div class="history__card-text">
-                                    <time class="history__day">8 марта</time>
-                                    <h4 class="history-card__title">Весенняя игра</h4>
-                                        <div class="history__about">
-                                            <p>
-                                                Успевайте забронировать даты. Пока еще есть места на март. Удачи и всех благ!
-                                            </p>
-                                        </div>
-                                </div> 
-                            </li>
-                        </ul>
-                        <div class="page-menu">
-                            <div class="page-menu__now">Страница 1 из 7</div>
-                            <ul class="page-menu__list">
-                            <li class="page-menu__list-item page-menu__list-item--active">
-                                <a href="#" class="page-menu__list-ref">1</a>
-                            </li>
-                            <li class="page-menu__list-item">
-                                <a href="#" class="page-menu__list-ref">2</a>
-                            </li>
-                            <li class="page-menu__list-item">
-                                <a href="#" class="page-menu__list-ref">3</a>
-                            </li>
-                            <li class="page-menu__list-item">
-                                <a href="#" class="page-menu__list-ref">4</a>
-                            </li>
-                            <li class="page-menu__list-item">
-                                <a href="#" class="page-menu__list-ref">5</a>
-                            </li>
-                            <li class="page-menu__list-item">
-                                <a href="#" class="page-menu__list-ref">6</a>
-                            </li> 
-                                
+                                        <p class="offers__about">Равным образом постоянное обеспечение нашей
+                                            деятельности позволяет оценить значение систем массового участия.</p>
+                                        <div class="offers__item-button-wrapper"> <a href="#"
+                                                class="offers__item-button">Смотреть</a> </div>
+                                    </div>
+                                </li>
+                                <li class="offers__item">
+                                    <div class="offers__header">
+                                        <img src="img/DyzSUv3WsAEW9zJ 1.png" alt="" class="offers__item-pic">
+                                    </div>
+                                    <div class="offers__item-text offers__item-text--active">
+                                        <h4 class="offers__item-name">Назад в 90-е</h4>
+                                        <ul class="offers__info">
+                                            <li class="offers__item-spec">
+                                                <img src="img/Vector-2.png" alt="" class="offers__spec-pic">
+                                                <span class="offers__spec-title">90 минут</span>
+                                            </li>
+                                            <li class="offers__item-spec">
+                                                <img src="img/Vector-1.png" alt="" class="offers__spec-pic">
+                                                <span class="offers__spec-title">70 вопросов</span>
+                                            </li>
+                                        </ul>
+                                        <p class="offers__about">Равным образом постоянное обеспечение нашей
+                                            деятельности
+                                            позволяет оценить значение систем массового участия.</p>
+                                        <div class="offers__item-button-wrapper offers__item-button-wrapper--active"> <a
+                                                href="#" class="offers__item-button">Смотреть</a> </div>
+                                    </div>
+                                </li>
+                                <li class="offers__item">
+                                    <div class="offers__header">
+                                        <img src="img/WYIzcJxSabU 1.png" alt="" class="offers__item-pic">
+                                    </div>
+                                    <div class="offers__item-text">
+                                        <h4 class="offers__item-name">IT-викторина</h4>
+                                        <ul class="offers__info">
+                                            <li class="offers__item-spec">
+                                                <img src="img/Vector-2.png" alt="" class="offers__spec-pic">
+                                                <span class="offers__spec-title">90 минут</span>
+                                            </li>
+                                            <li class="offers__item-spec">
+                                                <img src="img/Vector-1.png" alt="" class="offers__spec-pic">
+                                                <span class="offers__spec-title">70 вопросов</span>
+                                            </li>
+                                        </ul>
+                                        <p class="offers__about">Равным образом постоянное обеспечение нашей
+                                            деятельности позволяет оценить значение систем массового участия.</p>
+                                        <div class="offers__item-button-wrapper"> <a href="#"
+                                                class="offers__item-button">Смотреть</a> </div>
+                                    </div>
+                                </li>
                             </ul>
-                        </div>
-                    </section>
+                        </section>
 
-                    <section class="about">
-                        <img src="img/kviz_pliz__nizhnii_novgorod_1_qg_large 1.png" alt="" class="about__pic">
+                        <section class="history">
+                            <h3 class="history__title">Прошедшие игры</h3>
+                            <ul class="history__items">
+                                <li class="history__item">
+                                    <img src="img/kto_gde_kviz__moskva_1_qg_large 1.png" alt=""
+                                        class="history__item-pic">
+                                    <div class="history__card-text">
+                                        <time class="history__day">1 января</time>
+                                        <h4 class="history-card__title">Новогодний квиз</h4>
+                                        <div class="history__about">
+                                            <p>
+                                                Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и
+                                                всех благ!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="history__item">
+                                    <img src="img/3187ee0fc9499a1ef1583ff3c981cf5a 1.png" alt=""
+                                        class="history__item-pic">
+                                    <div class="history__card-text">
+                                        <time class="history__day">8 марта</time>
+                                        <h4 class="history-card__title">Весенняя игра</h4>
+                                        <div class="history__about">
+                                            <p>
+                                                Успевайте забронировать даты. Пока еще есть места на март. Удачи и всех
+                                                благ!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="page-menu">
+                                <div class="page-menu__now">Страница 1 из 7</div>
+                                <ul class="page-menu__list">
+                                    <li class="page-menu__list-item page-menu__list-item--active">
+                                        <a href="#" class="page-menu__list-ref">1</a>
+                                    </li>
+                                    <li class="page-menu__list-item">
+                                        <a href="#" class="page-menu__list-ref">2</a>
+                                    </li>
+                                    <li class="page-menu__list-item">
+                                        <a href="#" class="page-menu__list-ref">3</a>
+                                    </li>
+                                    <li class="page-menu__list-item">
+                                        <a href="#" class="page-menu__list-ref">4</a>
+                                    </li>
+                                    <li class="page-menu__list-item">
+                                        <a href="#" class="page-menu__list-ref">5</a>
+                                    </li>
+                                    <li class="page-menu__list-item">
+                                        <a href="#" class="page-menu__list-ref">6</a>
+                                    </li>
+                                    <li class="page-menu__list-item">
+                                        <a href="#" class="page-menu__list-ref">7</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section class="about">
+                            <img src="img/kviz_pliz__nizhnii_novgorod_1_qg_large 1.png" alt="" class="about__pic">
                             <div class="about__wrapper">
                                 <div class="about__text">
                                     <h3 class="about__title">О нас</h3>
-                                    <div class="about__info"> 
-                                       <p>Сайт рыбатекст поможет дизайнеру, верстальщику, 
-                                       вебмастеру сгенерировать несколько абзацев более менее осмысленного 
-                                       текста рыбы на русском языке, а начинающему оратору отточить 
-                                       навык публичных выступлений в домашних условиях.</p>
+                                    <div class="about__info">
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику,
+                                            вебмастеру сгенерировать несколько абзацев более менее осмысленного
+                                            текста рыбы на русском языке, а начинающему оратору отточить
+                                            навык публичных выступлений в домашних условиях.</p>
                                     </div>
                                     <a href="#" class="about__button">Подробнее</a>
                                 </div>
                             </div>
-                    </section>
-                </div>
-            </main>
-        </div>
-
-        <footer class="footer-container">
-            <div class="container">
-                <div class="footer">
-
-                    <div class="logo--footer">
-                        <a href="" class="logo">
-                            <img class="logo__pic" src="img/Quiz-box.png" alt="quiz-box_logo">     
-                        </a>
+                        </section>
                     </div>
-                    <nav class="site-menu--footer">
-                        <div class="site-menu">
+                </main>
+            </div>
+
+            <footer class="footer-container">
+                <div class="container">
+                    <div class="footer">
+
+                        
+                            <a href="" class="footer__logo">
+                                <img class="logo__pic" src="img/Quiz-box.png" alt="quiz-box_logo">
+                            </a>
+                        
+                        <nav class="site-menu footer__menu">
                             <ul class="site-menu__items">
-                                <li class="site-menu__item"><a href="#" class="site-menu__item-ref">Главная</a> </li>
+                                <li class="site-menu__item"><a href="#" class="site-menu__item-ref">Главная</a>
+                                </li>
                                 <li class="site-menu__item"><a href="#" class="site-menu__item-ref">Игры</a> </li>
                                 <li class="site-menu__item"><a href="#" class="site-menu__item-ref">Отзывы</a> </li>
                             </ul>
+                        </nav>
+
+                        <div class="social">
+                            <ul class="social__list">
+                                <li class="social__item social__item--telegram">
+                                    <a href="#" class="social__ref"></a>
+                                </li>
+                                <li class="social__item social__item--vk">
+                                    <a href="#" class="social__ref"></a>
+                                </li>
+                                <li class="social__item social__item--facebook">
+                                    <a href="#" class="social__ref"></a>
+                                </li>
+                                <li class="social__item social__item--inst">
+                                    <a href="#" class="social__ref"></a>
+                                </li>
+                            </ul>
                         </div>
-                    </nav>
 
-                    <div class="social">
-                        <ul class="social__list">
-                            <li class="social__item social__item--telegram">
-                                <a href="#" class="social__ref"></a>
-                            </li>
-                            <li class="social__item social__item--vk">
-                                <a href="#" class="social__ref"></a>
-                            </li>
-                            <li class="social__item social__item--facebook">
-                                <a href="#" class="social__ref"></a>
-                            </li>
-                            <li class="social__item social__item--inst">
-                                <a href="#" class="social__ref"></a>
-                            </li>
-                        </ul>
-                    </div>
 
-                    <div class="contacts contacts--footer">
-                        <address class="contacts">
-                            <div class="contacts__dropdown-title contacts-footer__title">Бесплатный звонок по России</div>
+                        <address class="contacts footer__contacts">
+                            <div class="contacts__info">Бесплатный звонок по России
+                            </div>
                             <a href="tel:+78007003030" class="contacts__number">8 800 700 30 30</a>
                         </address>
+
                     </div>
                 </div>
-            </div>
-        </footer>
-
-    </div>       
+            </footer>
+        </div>
+    </div>
 </body>
+
 </html>
