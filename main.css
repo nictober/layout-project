@@ -56,6 +56,10 @@ h6 {
     position: relative;
 }
 
+.hero {
+    margin-bottom: 70px;
+}
+
 .logo {
     display: block;
 }
@@ -137,7 +141,6 @@ h6 {
 }
 
 .main-announce__title {
-    margin-top: 70px;
     font-size: 60px;
     font-weight: bold;
     line-height: 1.1;
@@ -146,10 +149,11 @@ h6 {
 
 .main-announce__text {
     font-size: 21px;
-    margin-bottom: 93px;
+    margin-bottom: 74px;
 }
 
 .main-announce__button {
+    display: inline-block;
     background-color: #8F00FF;
     border-radius: 4px;
     padding: 18px 40px;
@@ -164,7 +168,8 @@ h6 {
 }
 
 .offers {
-    margin-top: 211px;
+    margin-top: 193px;
+    margin-bottom: 117px;
 }
 
 .offers__title {
@@ -191,7 +196,6 @@ h6 {
 .offers__item {
     display: inline-block;
     overflow: hidden;
-    margin-bottom: 117px;
     border-radius: 4px;
     margin-right: 23px;
     width: 362px;
@@ -287,13 +291,20 @@ h6 {
     background-color: #8F00FF;
 }
 
+.history {
+    margin-bottom: 140px;
+}
+
+.history__items {
+    margin-bottom: 52px;
+}
+
 .history__item {
 
     display: inline-block;
     position: relative;
     overflow: hidden;
     vertical-align: top;
-    margin-bottom: 52px;
     margin-right: 17px;
 
 }
@@ -348,7 +359,6 @@ h6 {
 .page-menu {
     text-align: center;
     font-size: 16px;
-    margin-bottom: 140px;
 }
 
 .page-menu__now {
@@ -383,6 +393,10 @@ h6 {
     text-decoration: none;
 }
 
+.about {
+    margin-bottom: 75px;
+}
+
 .about__pic {
     display: inline-block;
     vertical-align: top;
@@ -399,7 +413,6 @@ h6 {
     overflow: hidden;
     margin-left: -140px;
     margin-top: 100px;
-    margin-bottom: 22px;
 }
 
 .about__text {
@@ -430,7 +443,6 @@ h6 {
 }
 
 .footer {
-    margin-top: 53px;
     padding-top: 51px;
     padding-bottom: 57px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
