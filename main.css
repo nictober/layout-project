@@ -66,7 +66,6 @@ h6 {
     left: 0px;
 }
 
-/* css properties for logo in footer section */
 
 .header__menu {
     position: absolute;
@@ -114,11 +113,6 @@ h6 {
     top: 49px;
 }
 
-/* .contacts--footer .contacts {
-    width: 191px;
-    top: 17px;
-    right: 19px;
-} */
 
 .contacts__number {
     text-decoration: none;
@@ -438,7 +432,7 @@ h6 {
 .footer {
     margin-top: 53px;
     padding-top: 51px;
-    /* padding-bottom: 57px; */
+    padding-bottom: 57px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     position: relative;
 }
