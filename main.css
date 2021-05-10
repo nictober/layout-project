@@ -51,13 +51,22 @@ h6 {
     margin: 0 auto;
 }
 
-.header {
-    height: 140px;
-    position: relative;
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 584px;
 }
 
-.hero {
-    margin-bottom: 70px;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 27px;
+}
+
+.header {
+    margin-bottom: 10px;;
 }
 
 .logo {
@@ -65,21 +74,26 @@ h6 {
 }
 
 .header__logo {
-    position: absolute;
+    /* position: absolute;
     top: 34px;
-    left: 0px;
+    left: 0px; */
 }
 
 
 .header__menu {
-    position: absolute;
+    /* position: absolute;
     top: 37px;
-    left: 409px;
+    left: 409px; */
+}
+
+.site-menu__items {
+    display: flex;
+    
 }
 
 .site-menu__item {
-    display: inline-block;
-    vertical-align: middle;
+    /* display: inline-block; */
+    /* vertical-align: middle; */
     margin-right: 53.5px;
     font-size: 16px;
     margin-left: 10px;
@@ -100,16 +114,16 @@ h6 {
 }
 
 .contacts {
-    position: absolute;
+    /* position: absolute;
 
     font-style: normal;
     text-align: right;
-    line-height: 1.1;
+    line-height: 1.1; */
 }
 
 .header__contacts {
-    top: 31px;
-    right: 3px;
+    /* top: 31px;
+    right: 3px; */
 }
 
 .footer__contacts {
@@ -136,8 +150,15 @@ h6 {
     margin-bottom: 6.5px;
 }
 
-.main-announce {
-    width: 637px;
+/* .main__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 600px;
+} */
+
+.main-announce__container {
+    width: 56%;
 }
 
 .main-announce__title {
@@ -188,21 +209,15 @@ h6 {
     vertical-align: middle;
 }
 
-/* .offers__pic {
-    display:inline-block;
-
-} */
-
-.offers__item {
-    display: inline-block;
-    overflow: hidden;
-    border-radius: 4px;
-    margin-right: 23px;
-    width: 362px;
+.offers__items {
+    display: flex;
+    justify-content: space-between;
 }
 
-.offers__item:last-child {
-    margin-right: 0px;
+.offers__item {
+    overflow: hidden;
+    border-radius: 4px;
+    width: calc(100%/3 - 18px);
 }
 
 .offers__header {
@@ -222,7 +237,6 @@ h6 {
     padding: 28px 20px 27px 20px;
     background-color: #fff;
     color: #666666;
-    /* position: relative; */
 }
 
 .offers__item-name {
@@ -234,16 +248,12 @@ h6 {
 
 
 .offers__item-spec {
-    display: inline-block;
     font-size: 16px;
-    margin-right: 63px;
+    margin-right: 33px;;
     height: 26px;
     line-height: 26px;
 }
 
-.offers__item-spec:last-child {
-    margin-right: 0;
-}
 
 .offers__spec-pic {
     vertical-align: middle;
@@ -256,11 +266,11 @@ h6 {
 .offers__info {
     margin-bottom: 25px;
     line-height: 1.45;
+    display: flex;
+    justify-content: space-around;
 }
 
 .offers__about {
-    /* margin-top: 26.5px;
-    margin-bottom: 24.5px; */
     color: #303030;
     margin-bottom: 30px;
 }
@@ -271,8 +281,6 @@ h6 {
     display: inline-block;
     padding: 18px 29px 18px 30px;
     border-radius: 4px;
-    /* border: 1px;
-    border-color: #8F00FF; */
     border: 1px solid #8F00FF;
     font-size: 14px;
     font-weight: 700;
@@ -297,15 +305,14 @@ h6 {
 
 .history__items {
     margin-bottom: 52px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .history__item {
 
-    display: inline-block;
     position: relative;
     overflow: hidden;
-    vertical-align: top;
-    margin-right: 17px;
 
 }
 
@@ -350,15 +357,22 @@ h6 {
     margin-bottom: 15px;
 } */
 
-.page-menu__list-item,
+/* .page-menu__list-item,
 .page-menu__now,
 .page-menu__list {
     display: inline-block;
-}
+} */
 
 .page-menu {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
+}
+
+.page-menu__list {
+    display: flex;
+    
 }
 
 .page-menu__now {
@@ -374,7 +388,8 @@ h6 {
     line-height: 32px;
 }
 .page-menu__list-item {
-    margin-right: 0px;
+    text-align: center;
+    margin-right: 3px;
 }
 
 .page-menu__list-ref:hover {
@@ -394,25 +409,31 @@ h6 {
 }
 
 .about {
+    display: flex;
     margin-bottom: 75px;
 }
 
 .about__pic {
-    display: inline-block;
-    vertical-align: top;
+    display: block;
 }
 
 .about__wrapper {
-    display: inline-block;
-    vertical-align: top;
     box-sizing: border-box;
-    width: 785px;
+    max-width: 785px;
     padding: 69px 81px 66px;
     border-radius: 4px;
     background: linear-gradient(45deg, #8F00FF, #148CFF);
     overflow: hidden;
     margin-left: -140px;
     margin-top: 100px;
+}
+
+.about:before {
+    content: "";
+    display: block;
+    width: 489px;
+    height: 505px;
+    background: url(img/kviz_pliz__nizhnii_novgorod_1_qg_large\ 1.png) center center / cover no-repeat;
 }
 
 .about__text {
@@ -443,33 +464,40 @@ h6 {
 }
 
 .footer {
+    display: flex;
+    justify-content: space-between;
     padding-top: 51px;
     padding-bottom: 57px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    position: relative;
+    /* position: relative; */
 }
 
 
 .footer__logo {
-    display: inline-block;
-    vertical-align: middle;
+    /* display: inline-block;
+    vertical-align: middle; */
     margin-right: 117px;
 }
 
 .footer__menu {
-    display: inline-block;
-    vertical-align: middle;
+    /* display: inline-block; */
+    /* vertical-align: middle; */
 }
 
 .social {
-    position: absolute;
+    /* position: absolute; */
     top: 52px;
     right: 264px;
 }
 
-.social__item {
-    display: inline-block;
+.social__list {
+    display: flex;
     vertical-align: middle;
+}
+
+.social__item {
+    /* display: inline-block;
+    vertical-align: middle; */
     margin-right: 7px;
 }
 
