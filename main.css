@@ -563,6 +563,8 @@ img {
 }
 
 .page-content {
+    padding-top: 98px;
+    padding-bottom: 90px;
     background-color: #F2F2F2;
 }
 
@@ -573,10 +575,15 @@ img {
 
 .services__item {
     display: flex;
+    margin-bottom: 49px;
+}
+
+.services__image-elem {
+    border-radius: 4px;
 }
 
 .services__image {
-    /* width: 30%; */
+    margin-right: 57px;
 }
 
 .services__container {
@@ -587,11 +594,13 @@ img {
     color: #000;
     font-size: 36px;
     font-weight: bold;
+    margin-bottom: 28px;
 }
 
 .services__text {
     color:#303030;
     font-size: 16px;
+    margin-bottom: 34px;
 }
 
 .about__button-services {
