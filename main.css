@@ -39,11 +39,6 @@ h6 {
     font-weight: normal;
 }
 
-img {
-    display: block;
-    width: 100%;
-}
-
 .main-page {
     background: url("img/main-bg.png") center top no-repeat, url("img/bottom-bg.png") center bottom 150px no-repeat;
 }
@@ -239,6 +234,7 @@ img {
 
 .offer__spec-pic {
     vertical-align: middle;
+    margin-right: 8px;
 }
 
 .offer__spec-title {
@@ -515,13 +511,16 @@ img {
 
 /* services page styles */
 
+.services-page__wrapper {
+    backdrop-filter: grayscale(1);
+}
 
 .top-line {
     min-height: 415px;
     background: url(img/main-bg.png) center center no-repeat;
     display: flex;
     flex-direction: column;
-    padding-bottom: 25px;
+    /* filter: grayscale(100%x); */
 }
 
 .top-line__container {
@@ -538,6 +537,7 @@ img {
 
 .breadcrumbs__list {
     display: flex;
+    padding-bottom: 31px;
 }
 
 .breadcrumbs__item {
@@ -616,8 +616,41 @@ img {
     color:#fff;
 }
 
+.partners-section {
+    background-color: #F4F5F5;
+    padding-top: 88px;
+    padding-bottom: 118px;
+}
 
+.partners__title {
+    color:#1A1B1E;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 73px;
+}
 
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partners__item {
+
+}
+
+.partners__ref {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 100px;
+
+}
+
+.partners__logo {
+    display: block;
+    max-width: 100%;
+}
 
 
 
