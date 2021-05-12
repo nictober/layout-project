@@ -584,10 +584,14 @@ h6 {
 
 .services__image-elem {
     border-radius: 4px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .services__image {
     margin-right: 57px;
+    min-width: 460px;
 }
 
 .services__container {
