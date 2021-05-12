@@ -592,6 +592,7 @@ h6 {
 .services__image {
     margin-right: 57px;
     min-width: 460px;
+    min-height: 333px;
 }
 
 .services__container {
