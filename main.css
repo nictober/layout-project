@@ -512,11 +512,18 @@ h6 {
 
 
 .top-line {
-    min-height: 415px;
+    
     background: url(img/main-bg.png) center center no-repeat;
+    /* display: flex;
+    flex-direction: column; */
+    /* filter: grayscale(100%x); */
+}
+
+.top-line__wrapper {
+    min-height: 415px;
     display: flex;
     flex-direction: column;
-    /* filter: grayscale(100%x); */
+    backdrop-filter: grayscale(1);
 }
 
 
