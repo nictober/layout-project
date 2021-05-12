@@ -73,7 +73,6 @@ h6 {
 }
 
 .site-menu {
-    width: 26%;
     padding-left: 30px;
     padding-bottom: 7px;
 }
@@ -81,12 +80,12 @@ h6 {
 
 .site-menu__items {
     display: flex;
-    justify-content: space-between;
 
 }
 
 .site-menu__item {
     font-size: 16px;
+    margin-right: 66px;
 }
 
 .site-menu__item:last-child {
@@ -511,9 +510,6 @@ h6 {
 
 /* services page styles */
 
-.services-page__wrapper {
-    backdrop-filter: grayscale(1);
-}
 
 .top-line {
     min-height: 415px;
@@ -522,6 +518,7 @@ h6 {
     flex-direction: column;
     /* filter: grayscale(100%x); */
 }
+
 
 .top-line__container {
     flex: 1;
@@ -594,12 +591,13 @@ h6 {
     color: #000;
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 28px;
+    margin-bottom: 34px;
 }
 
 .services__text {
     color:#303030;
     font-size: 16px;
+    line-height: 1.7;
     margin-bottom: 34px;
 }
 
@@ -619,7 +617,7 @@ h6 {
 .partners-section {
     background-color: #F4F5F5;
     padding-top: 88px;
-    padding-bottom: 118px;
+    padding-bottom: 105px;
 }
 
 .partners__title {
@@ -634,10 +632,6 @@ h6 {
     flex-wrap: wrap;
 }
 
-.partners__item {
-
-}
-
 .partners__ref {
     display: flex;
     align-items: center;
@@ -650,6 +644,10 @@ h6 {
 .partners__logo {
     display: block;
     max-width: 100%;
+}
+
+.services__footer {
+    padding-top: 57px;
 }
 
 
