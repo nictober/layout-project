@@ -1,0 +1,53 @@
+.page-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.page-menu__list {
+    display: flex;
+
+}
+
+.page-menu__now {
+    margin-right: 22px;
+}
+
+.page-menu__list-ref {
+    display: block;
+    font-weight: bold;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    line-height: 32px;
+}
+
+.page-menu__list-item {
+    text-align: center;
+    margin-right: 3px;
+}
+
+.page-menu__list-ref:hover {
+    background-color: #8F00FF;
+}
+
+.page-menu__list-item--active .page-menu__list-ref {
+    background-color: #8F00FF;
+}
+
+.page-menu__list-item:last-child {
+    margin-right: 0px;
+}
+
+.page-menu__list-ref {
+    text-decoration: none;
+}
+
+.page-menu__services {
+    color: #000;
+}
+
+.page-menu__services .page-menu__list-item--active .page-menu__list-ref {
+    color:#fff;
+}

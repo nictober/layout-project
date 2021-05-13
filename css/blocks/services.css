@@ -1,0 +1,39 @@
+.services__item {
+    display: flex;
+    margin-bottom: 49px;
+}
+
+.services__image-elem {
+    border-radius: 4px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.services__image {
+    margin-right: 57px;
+    min-width: 460px;
+    min-height: 333px;
+}
+
+.services__container {
+    flex:1;
+}
+
+.services__name {
+    color: #000;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 34px;
+}
+
+.services__text {
+    color:#303030;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 34px;
+}
+
+.services__footer {
+    padding-top: 57px;
+}

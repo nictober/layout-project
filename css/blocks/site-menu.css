@@ -1,0 +1,29 @@
+.site-menu {
+    padding-left: 30px;
+    padding-bottom: 7px;
+}
+
+
+.site-menu__items {
+    display: flex;
+
+}
+
+.site-menu__item {
+    font-size: 16px;
+    margin-right: 66px;
+}
+
+.site-menu__item:last-child {
+    margin-right: 0;
+}
+
+.site-menu__item-ref {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+.site-menu__item-ref:hover {
+    color: #8F00FF;
+}

@@ -1,0 +1,19 @@
+.top-line {
+    
+    background: url(../../img/main-bg.png) center -329px no-repeat;
+}
+
+.top-line__wrapper {
+    min-height: 415px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: grayscale(1);
+}
+
+
+.top-line__container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,55 @@
+.history {
+    margin-bottom: 140px;
+}
+
+.history__items {
+    margin-bottom: 52px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.history__item {
+
+    overflow: hidden;
+    position: relative;
+    min-width: 50%;
+    margin-bottom: 9px;
+}
+
+.history__item-pic {
+    border-radius: 10px;
+}
+
+.history__item:last-child {
+    margin-right: 0px;
+}
+
+.history__card-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 31px 30px 28px 29px;
+}
+
+.history__day {
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.history__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 46px;
+}
+
+.history-card__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.history__about {
+    width: 477px;
+    font-size: 16px;
+}

@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 47px;
+    padding-bottom: 57px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo {
+    margin-right: 112px;
+}
+
+.footer__menu {
+    padding-top: 6px;
+    padding-left: 18px;
+}

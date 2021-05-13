@@ -1,0 +1,30 @@
+.main-announce__container {
+    width: 56%;
+}
+
+.main-announce__title {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.main-announce__text {
+    font-size: 21px;
+    margin-bottom: 80px;
+}
+
+.main-announce__button {
+    display: inline-block;
+    background-color: #8F00FF;
+    border-radius: 4px;
+    padding: 18px 40px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-announce__button:hover {
+    background-color: #741BBA;
+}

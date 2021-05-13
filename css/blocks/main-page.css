@@ -1,0 +1,7 @@
+.main-page {
+    background: url("../../img/main-bg.png") center top no-repeat, url("img/bottom-bg.png") center bottom 150px no-repeat;
+}
+
+.main-page__wrapper {
+    backdrop-filter: grayscale(1);
+}
