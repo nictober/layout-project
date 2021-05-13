@@ -13,7 +13,7 @@
 }
 
 .offers__name:after {
-    content: url(img/Vector-4.png);
+    content: url(../../img/Vector-4.png);
     margin-left: 9px;
     vertical-align: middle;
 }
