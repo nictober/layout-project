@@ -25,40 +25,40 @@
 
 .social__item--telegram .social__ref {
     width: 36px; height: 36px;
-    background: url(/../../img/css_sprites.png) -122px -66px;
+    background: url(../../img/css_sprites.png) -122px -66px;
 }
 
 .social__item--vk .social__ref {
     width: 36px; height: 36px;
-    background: url(/../../img/css_sprites.png) -66px -122px;
+    background: url(../../img/css_sprites.png) -66px -122px;
 }
 
 .social__item--facebook .social__ref {
     width: 36px; height: 36px;
-    background: url(/../../img/css_sprites.png) -66px -10px;
+    background: url(../../img/css_sprites.png) -66px -10px;
 }
 
 .social__item--inst .social__ref {
     width: 36px; height: 36px;
-    background: url(/../../img/css_sprites.png) -66px -66px;
+    background: url(../../img/css_sprites.png) -66px -66px;
 }
 
 .social__item--telegram .social__ref:hover {
     width: 36px; height: 36px;
-    background: url(/../../img/css_sprites.png) -122px -10px;
+    background: url(../../img/css_sprites.png) -122px -10px;
 }
 
 .social__item--vk .social__ref:hover {
     width: 36px; height: 36px;
-    background: url(/../../img/css_sprites.png) -10px -122px;
+    background: url(../../img/css_sprites.png) -10px -122px;
 }
 
 .social__item--facebook .social__ref:hover {
     width: 36px; height: 36px;
-    background: url(/../../img/css_sprites.png) -10px -10px;
+    background: url(../../img/css_sprites.png) -10px -10px;
 }
 
 .social__item--inst .social__ref:hover {
     width: 36px; height: 36px;
-    background: url(/../../img/css_sprites.png) -10px -66px;
+    background: url(../../img/css_sprites.png) -10px -66px;
 }
