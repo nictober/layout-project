@@ -26,4 +26,5 @@
 
 .site-menu__item-ref:hover {
     color: #8F00FF;
+    transition: 0.5s;
 }

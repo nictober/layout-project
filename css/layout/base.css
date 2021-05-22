@@ -43,6 +43,12 @@ h6 {
     font-weight: normal;
 }
 
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 .container {
     width: 1141px;
     margin: 0 auto;

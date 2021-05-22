@@ -27,4 +27,21 @@
 
 .main-announce__button:hover {
     background-color: #741BBA;
+    transition: .5s;
+}
+
+.main-announce__button--clean {
+   border-radius: 50px / 50px;
+   color: #FFF;
+   margin-right: 15px;
+}
+
+.main-announce__button--clean:hover {
+    background: #2B2B2B;
+    color: #FFF;
+    transition: .5s;
+}
+
+.main-announce__button--send {
+    color: #FFF;
 }

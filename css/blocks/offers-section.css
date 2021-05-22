@@ -109,4 +109,5 @@
 .offer__item-button:hover {
     color: #fff;
     background-color: #8F00FF;
+    transition: .5s;
 }

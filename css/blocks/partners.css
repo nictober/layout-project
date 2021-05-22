@@ -19,6 +19,12 @@
 .partners__item {
     margin-left: 90px;
     flex-grow: 1;
+    filter: grayscale(1);
+}
+
+.partners__item:hover {
+    transition: .5s;
+    filter: grayscale(0);
 }
 
 .partners__item:nth-child(4n + 1) {

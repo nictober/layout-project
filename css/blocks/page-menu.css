@@ -30,6 +30,7 @@
 
 .page-menu__list-ref:hover {
     background-color: #8F00FF;
+    transition: .5s;
 }
 
 .page-menu__list-item--active .page-menu__list-ref {

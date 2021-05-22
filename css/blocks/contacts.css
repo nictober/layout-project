@@ -1,13 +1,50 @@
 .contacts {
-
     font-style: normal;
     text-align: right;
     line-height: 1.1;
+    position: relative;
 }
 
-.footer__contacts {
-    right: 0px;
-    top: 49px;
+.contacts__dropdown-menu {
+    margin-top: 9px;
+    position: absolute;
+    left: 28px;
+    top: 52px;
+    background: #EDEDED;
+    color: #1E1F20;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 20px;
+    opacity: 80%;
+    border-radius: 4px;
+    display: none;
+}
+
+.contacts__dropdown-menu:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 105px;
+    display: block;
+    border: 10px solid transparent;
+    border-bottom: 10px solid  #EDEDED;
+}
+
+.contacts:hover .contacts__dropdown-menu {
+    transition: .5s;
+    display: block;
+}
+
+.dropdown-item {
+    margin-bottom: 12px;
+}
+
+.dropdown-item:last-child {
+    margin-bottom: 0px;
+}
+
+.contacts__dropdown-menu .dropdown-item:first-child {
+    font-weight: 700;
 }
 
 
