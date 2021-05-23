@@ -9,30 +9,41 @@
     margin-top: 9px;
     position: absolute;
     left: 28px;
+    left: -9999px;
     top: 52px;
-    background: #EDEDED;
+    background: rgb(164, 171, 173);
     color: #1E1F20;
     font-size: 13px;
     font-weight: 600;
     padding: 20px;
-    opacity: 80%;
+    opacity: 0;
     border-radius: 4px;
-    display: none;
+}
+
+.contacts__dropdown-menu:after {
+    content: "";
+    top: -20px;
+    left: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 40px;
 }
 
 .contacts__dropdown-menu:before {
     content: "";
     position: absolute;
-    top: -20px;
+    top: -19px;
     left: 105px;
     display: block;
     border: 10px solid transparent;
-    border-bottom: 10px solid  #EDEDED;
+    border-bottom: 10px solid  rgb(164, 171, 173);
 }
 
 .contacts:hover .contacts__dropdown-menu {
-    transition: .5s;
-    display: block;
+    /* transition: .5s; */
+    left: 28px;
+    opacity: 1;
 }
 
 .dropdown-item {
